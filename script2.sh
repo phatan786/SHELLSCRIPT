@@ -6,7 +6,7 @@
 #during execution
 
 i=10
-if [$i -gt 0 ]; then
+if [ $i -gt 0 ]; do
 echo "hi $i"
 i=$(($i-1))
 done
