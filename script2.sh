@@ -5,13 +5,12 @@
 
 #during execution
 
-read -p "please enter directory name :" dir
+i=10
+if [$i -gt 0 ]; then
+echo "hi $i"
+i=$(($i-1))
+done
 
-if [ -d $dir ]; then
-echo "directory is present"
-else
-echo "directory is not present"
-fi
 
 
 
