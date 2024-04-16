@@ -2,6 +2,16 @@
 #by default if we dont define the shebang it will while executing it will take the shell that we execute.
 
 #  today we are going to learn variables
-name=vasim
+a=10
+b=xyz
+c=true
+d=abc123
 
 echo "hi my name is $name"
+
+echo "my name is $a"
+echo "my name is $b"
+echo "my name is $c"
+echo "my name is $d"
+
+
