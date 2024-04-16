@@ -7,7 +7,7 @@ b=xyz
 c=true
 d=abc123
 
-DATE=$(date+%F)
+DATE=$(date +%F)
 
 echo "hi my name is $name"
 
