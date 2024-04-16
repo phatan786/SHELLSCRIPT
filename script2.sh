@@ -5,10 +5,9 @@
 
 #during execution
 
-ls
+ls -l
 
-if [$? -eq 0];
-then 
+if [$? -eq 0];then 
 echo "sucess"
 else
 echo "failure"
