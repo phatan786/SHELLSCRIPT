@@ -5,12 +5,12 @@
 
 #during execution
 
-read -p "please enter file name :" text
+read -p "please enter directory name :" dir
 
-if [ -e $text ]; then
-echo "file is present"
+if [ -d $dir ]; then
+echo "directory is present"
 else
-echo "file is not present"
+echo "directory is not present"
 fi
 
 
