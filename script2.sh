@@ -5,19 +5,14 @@
 
 #during execution
 
-read -p "please provide the input:" input
+ls
 
-if [ -z $input ];
-then
-echo "input not provided we cannot proceed for the next process"
-exit 1
+if [$? -eq 0];
+then 
+echo "sucess"
+else
+echo "failure"
 fi
-
-echo "above command has been successed"
-
-
-
-
 
 
 
