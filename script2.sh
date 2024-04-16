@@ -5,8 +5,8 @@
 
 #during execution
 
-i=10
-while [ $i -gt 0 ]; do
+i=5
+until [ $i -le 3 ]; do
 echo "hi $i"
 i=$(($i-1))
 done
