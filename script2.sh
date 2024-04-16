@@ -25,6 +25,8 @@ echo "addition = $((aa+bb))"
 
 echo "my name is ${name[1]}"
 echo "my name is ${name[2]}"
+echo "my name is ${name[n]}"
+
 
 
 
