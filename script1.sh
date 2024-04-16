@@ -1,4 +1,6 @@
 #! /bin/bash 
 
 # This is used to comment the lines inside the shell script
-echo "hello world"
+echo -e "hello\nworld"
+echo -e "hello\tworld"
+echo -e "\e[31m;helloworld"
