@@ -9,8 +9,8 @@ read -p "enter username :" $name
 
 read -sp "enter password : " $password
 
-echo "my name is $name
-echo " my password is $password"
+echo "my name is $name"
+echo "my password is $password"
 
 
 
