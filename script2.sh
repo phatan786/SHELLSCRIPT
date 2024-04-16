@@ -5,10 +5,11 @@
 
 #during execution
 
-i=5
-until [ $i -le 3 ]; do
-echo "hi $i"
-i=$(($i-1))
+COMPONENTS=(payment cart user shippping catalohue)
+
+for comp in ${COMPONENTS[*]}; do
+echo "starting of $comp setup"
+echo "end of $comp setup"
 done
 
 
