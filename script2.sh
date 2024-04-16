@@ -6,6 +6,7 @@
 #during execution
 
 lssssd -l
+exit 1
 
 echo "hi"
 
