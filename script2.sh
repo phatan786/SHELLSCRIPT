@@ -5,19 +5,13 @@
 
 #during execution
 
-lssss -l
+read -p "please enter file name :" text
 
-if [ $? -eq 0 ];then 
-echo "sucess"
+if [ -e $text ]; then
+echo "file is present"
 else
-echo "failure"
+echo "file is not present"
 fi
-
-
-
-
-
-
 
 
 
