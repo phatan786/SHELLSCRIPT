@@ -23,8 +23,9 @@ echo "my name is $d"
 
 echo "addition = $((aa+bb))"
 
-echo "my name is $[name(0)]"
-echo "my name is $[name(1)]"
+echo "my name is ${name[1]}"
+echo "my name is ${name[2]}"
+
 
 
 
