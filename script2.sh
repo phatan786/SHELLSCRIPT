@@ -5,7 +5,7 @@
 
 #during execution
 
-echhoo "my name is vasim
+lssssd -l
 
 echo "hi"
 
