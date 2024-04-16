@@ -4,3 +4,4 @@
 echo -e "hello\nworld"
 echo -e "hello\tworld"
 echo -e "\e[1;34mhelloworld"
+echo "hello world"
