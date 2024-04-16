@@ -5,9 +5,9 @@
 
 #during execution
 
-read -p "enter username :" $name
+read -p "enter username :" name
 
-read -sp "enter password : " $password
+read -sp "enter password :"  password
 
 echo "my name is $name"
 echo "my password is $password"
