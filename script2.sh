@@ -5,12 +5,18 @@
 
 #during execution
 
-read -p "enter username :" name
+read -p "please provide the input:" input
 
-read -sp "enter password :"  password
+if [ -z $input ];
+then
+echo "input not provided we cannot proceed for the next process"
+exit 1
+fi
 
-echo "my name is $name"
-echo "my password is $password"
+echo "above command has been successed"
+
+
+
 
 
 
