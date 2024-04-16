@@ -5,10 +5,14 @@
 
 #during execution
 
-lssssd -l
-exit 1
+read -p "enter username :" $name
 
-echo "hi"
+read -sp "enter password : " $password
+
+echo "my name is $name
+echo " my password is $password"
+
+
 
 
 
