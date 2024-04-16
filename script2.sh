@@ -5,7 +5,7 @@
 
 #during execution
 
-ls -l
+lssss -l
 
 if [ $? -eq 0 ];then 
 echo "sucess"
