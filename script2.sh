@@ -5,13 +5,10 @@
 
 #during execution
 
-echo "my name is $1"
-echo "my last name is $n"
+echhoo "my name is vasim
 
-echo "total names is $*"
-echo "total names is $@"
+echo "hi"
 
-echo "toatal number of names is $#"
 
 
 
