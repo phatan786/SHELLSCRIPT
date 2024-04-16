@@ -3,11 +3,17 @@
 
 #  today we are going to learn variables
 
-#before execution
+#during execution
 
-read  -p "enter your name :" name
+echo "my name is $1"
+echo "my last name is $n"
 
-echo "my name is $name"
+echo "total names is $*"
+echo "total names is $@"
+
+echo "toatal number of names is $#"
+
+
 
 
 
